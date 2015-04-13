@@ -25,7 +25,7 @@ function startStreaming() {
 // Get a random line from the Aeneid
     request({url: 'http://api.aeneid.eu/sortes?version=latin', json: true}, function(err, res, json) {
     // Post it in reply
-      T.post('statuses/update/:id', { status: '@' + tweet.user.screen_name + " " + json["book"] + ". " + json["start_line"] + ": \n" + json["text"] , in_reply_to_status_id: tweet.id_str
+      T.post('statuses/update/:id', { status: '@' + tweet.user.screen_name + " " + json["book"] + ". " + json["start_line"] + ": \n" + json["text"] , in_reply_to_status_id: tweet.id
       }, function(err, data, response) {
         console.log(data)
       })
