@@ -18,7 +18,7 @@ var callback = function handleError(error) {
 
 // Listen for mentions
 function startStreaming() {
-  var stream = T.stream('statuses/filter', { track: '@LotsByVergil' });
+  var stream = T.stream('statuses/filter', { track: 'O @LotsByVergil' });
 
   stream.on('tweet', function(tweet) {
 
