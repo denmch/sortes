@@ -1,5 +1,5 @@
 {
-  "name": "Lots_By_Vergil",
+  "name": "sortes",
   "version": "0.1.0",
   "description": "A bot that serves up fortunes to anyone who mentions the account, drawn from the works of Vergil. It's the Sortes Vergilianae via Twitter.",
   "main": "index.js",
@@ -10,12 +10,15 @@
   "homepage": "http://denm.ch",
   "license": "MIT",
   "dependencies": {
-    "mocha": "^2.2.4",
     "request": "^2.55.0",
     "twit": "^1.1.20"
   },
   "devDependencies": {
     "mocha": "^2.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denmch/sortes"
   },
   "engines": {
     "node": "0.12.0"
