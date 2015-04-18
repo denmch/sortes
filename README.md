@@ -4,6 +4,8 @@ This bot uses the [Aeneid API](http://aeneid.eu) to reply to mentions on Twitter
 
 The resulting bot is [@LotsByVergil](https://twitter.com/LotsByVergil/).
 
+The bot is invoked by including a colon after it's name, e.g., "@LotsByVergil: What's my fortune?" This allows people to talk about the bot without triggering a response.
+
 ## Installation
 
 You'll need NPM, NodeJS, and the twit and request modules:
